@@ -1,4 +1,4 @@
-FROM siali/docker-nvidia-cv2
+FROM siali/cuda-cv2
 
 # compile repository
 RUN git clone https://github.com/AlexeyAB/darknet.git
